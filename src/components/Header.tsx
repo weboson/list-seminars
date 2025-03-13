@@ -6,18 +6,21 @@ const Header: FC = () => {
   return (
     <>
       <nav>
-        {menu.map((item) => (
-          <>
-            <NavLink
-              to={item.url}
-              style={({ isActive }) => ({
-                color: isActive ? "red" : "black",
-              })}
-            >
-              {item.title}
-            </NavLink>
-          </>
-        ))}
+        <ul>
+          {menu.map((item, index) => (
+            <li key={index}>
+              <NavLink
+                to={item.url}
+                style={({ isActive }) => ({
+                  color: isActive ? "red" : "black",
+                })}
+                key={index}
+              >
+                {item.title}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
       </nav>
     </>
   );
