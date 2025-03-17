@@ -1,6 +1,16 @@
-# Так как автор вакансии, не выходит на связь - приостанавливаю проект.
 
 # Тестовое задание для Junior React Developer
+
+## Стек для решения:
+1. Vitejs
+2. Reactjs
+3. Json-server
+4. TypeScript
+5. Styled-components
+6. Mobx
+7. Tailwind
+8. React-router-dom
+
 
 ## Задание
 
